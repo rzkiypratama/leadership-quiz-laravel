@@ -8,7 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
-      /**
+
+    /**
+     * Nama tabel di database
+     *
+     * @var string
+     */
+    protected $table = 'wpvrk_quiz_3';
+
+    /**
      * fillable
      *
      * @var array
