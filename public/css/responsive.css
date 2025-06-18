@@ -2,7 +2,7 @@
 @media only screen and (max-width: 480px) {
 
   #resVisualImg {
-    margin-top: -3rem;
+    margin-top: 2rem;
     width: 17rem;
 }
 
@@ -45,7 +45,9 @@
 .left-side #resDescText, .wording-first p {
     width: 20rem;
     text-align: justify;
-}
+    padding: 1rem;
+    background-color: azure;
+    }
 
   .quiz-wrapper {
     height: 88vh;
