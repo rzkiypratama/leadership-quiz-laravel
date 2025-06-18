@@ -57,7 +57,7 @@
 				</div>
 				<div class="quiz-wrapper container">
 					<div>
-						<img src="/image/wording.png" alt="notes" />
+						<img src="/image/wording.png" alt="notes" style="width: 100%" />
 					</div>
 					<!-- Quiz 1 -->
 					<div class="quiz_box mySlides fade">
@@ -933,7 +933,7 @@
 					</div>
 
 					<div id="note-image">
-						<img src="/image/bg-new/note.png" alt="notes" />
+						<img src="/image/bg-new/note.png" alt="notes" style="width: 100%;" />
 					</div>
 				</div>
 			</form>

@@ -14,6 +14,7 @@ class Post extends Model
      * @var string
      */
     protected $table = 'wpvrk_quiz_3';
+    // Use 'test' table if you want to test the model without affecting the actual data
 
     /**
      * fillable

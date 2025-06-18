@@ -11,7 +11,7 @@
 			<a class="nav-link" id="nav-link" href="/form">Tes Ulang</a>
 		</nav>
 		<div id="result-slide" class="h-100">
-			<div class="result-box d-flex justify-content-center align-items-center container">
+			<div class="result-box container">
 				<div class="left-side">
 					<div class="d-flex flex-column pb-2">
 						<img id="resTitleBadge" src="" alt="Result Badge Image" class="result-with-bg" />

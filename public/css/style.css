@@ -50,7 +50,7 @@ main {
     width: auto;
     display: flex;
     text-align: center;
-    /* flex-direction: column; */
+    flex-direction: row;
     padding: 1rem;
 }
 
@@ -89,6 +89,7 @@ main {
 .wording-first p {
     font-family: "Patrick Hand", cursive;
     font-size: 22px;
+    width: 43rem;
 }
 
 .wording-first h2 {
@@ -664,6 +665,13 @@ main {
     font-weight: 400;
     margin: 20px 0 20px 0;
 }
+
+  .result-box {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
 
 /* Footer */
 footer {

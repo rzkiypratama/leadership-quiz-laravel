@@ -1,5 +1,91 @@
 /* Responsive */
 @media only screen and (max-width: 480px) {
+
+  #resVisualImg {
+    margin-top: -3rem;
+    width: 17rem;
+}
+
+  .result-box {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .left-side {
+    text-align: left;
+    height: 70vh;
+    margin-top: 6rem;
+    padding: 2rem 2rem;
+    background-image: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+#result-slide {
+    width: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result-with-bg {
+    margin-top: -3rem;
+    width: 20rem;
+}
+
+  .navbar img {
+    width: 100px;
+    height: 30px;
+}
+
+.left-side #resDescText, .wording-first p {
+    width: 20rem;
+    text-align: justify;
+}
+
+  .quiz-wrapper {
+    height: 88vh;
+}
+
+  .quiz_background {
+    width: 30rem;
+    background-position: center;
+}
+
+  .welcome-background {
+    text-align: left;
+    background-image: url("/image/bg-new/question-bg.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+    height: 32rem;
+    width: 32rem;
+    padding: 7rem;
+}
+
+.form-background {
+    position: absolute;
+    background-image: url(/image/bg-new/bg-form.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding: 10rem 0rem;
+    left: -28px;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    width: 30rem;
+    background-position: top right;
+}
+
+.form_box form .btn.btn-primary {
+    width: 100%;
+}
+
   .navbar .navbar-brand {
     font-family: Inter;
     font-size: 24px;
@@ -49,7 +135,7 @@
 
   /* QUIZ FORM */
   .form_box {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .form_box h2 {
@@ -61,7 +147,7 @@
   /* QUIZ */
   .quiz_box {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     gap: 0;
     padding: 20px;
   }
@@ -81,7 +167,7 @@
   }
 
   .quiz_box .content .cta {
-    gap: 12px;
+    gap: 4px;
   }
 
   .quiz_box .content .btn {
@@ -91,6 +177,7 @@
 
   .quiz_box .control {
     gap: 50px;
+    margin-left: 3.5rem;
   }
 
   .quiz_box .control .counter {
@@ -108,7 +195,7 @@
 
   .divider {
     border: 1px solid #fff;
-    margin: 0 15px;
+    margin: 100px 5px;
   }
 
   /* QUIZ RESULT */
