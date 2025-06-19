@@ -49,6 +49,12 @@
     background-color: azure;
     }
 
+.wording-first p {
+    width: 20rem;
+    text-align: justify;
+    padding: 0.2rem;
+    }
+
   .quiz-wrapper {
     height: 88vh;
 }
